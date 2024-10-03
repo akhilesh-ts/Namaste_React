@@ -1,0 +1,73 @@
+{
+    "documentation" : "https://opencagedata.com/api",
+    "licenses" : [
+       {
+          "name" : "see attribution guide",
+          "url" : "https://opencagedata.com/credits"
+       }
+    ],
+    "rate" : {
+       "limit" : 2500,
+       "remaining" : 2486,
+       "reset" : 1727222400
+    },
+    "results" : [
+       {
+          "bounds" : {
+             "northeast" : {
+                "lat" : 10.5156006,
+                "lng" : 76.1791543
+             },
+             "southwest" : {
+                "lat" : 10.515527,
+                "lng" : 76.1784204
+             }
+          },
+          "components" : {
+             "ISO_3166-1_alpha-2" : "IN",
+             "ISO_3166-1_alpha-3" : "IND",
+             "ISO_3166-2" : [
+                "IN-KL"
+             ],
+             "_category" : "road",
+             "_normalized_city" : "Thrissur",
+             "_type" : "road",
+             "city" : "Thrissur",
+             "continent" : "Asia",
+             "country" : "India",
+             "country_code" : "in",
+             "county" : "Thrissur",
+             "postcode" : "680611",
+             "road" : "unnamed road",
+             "road_type" : "residential",
+             "state" : "Kerala",
+             "state_code" : "KL",
+             "state_district" : "Thrissur"
+          },
+          "confidence" : 9,
+          "distance_from_q" : {
+             "meters" : 38
+          },
+          "formatted" : "unnamed road, Thrissur, Thrissur - 680611, Kerala, India",
+          "geometry" : {
+             "lat" : 10.5155937,
+             "lng" : 76.1790278
+          }
+       }
+    ],
+    "status" : {
+       "code" : 200,
+       "message" : "OK"
+    },
+    "stay_informed" : {
+       "blog" : "https://blog.opencagedata.com",
+       "mastodon" : "https://en.osm.town/@opencage"
+    },
+    "thanks" : "For using an OpenCage API",
+    "timestamp" : {
+       "created_http" : "Tue, 24 Sep 2024 18:01:33 GMT",
+       "created_unix" : 1727200893
+    },
+    "total_results" : 1
+ }
+ 
