@@ -4,8 +4,8 @@ Hungry Nomad is a modern food delivery web application built with a focus on per
 
 # Features
 
-**Location-based Restaurant Search** :  Automatically fetches the user's location to show nearby restaurants.
-**Live Restaurant Data** : Fetches restaurant data in real-time from the Swiggy live API.
+-**Location-based Restaurant Search** :  Automatically fetches the user's location to show nearby restaurants.
+-**Live Restaurant Data** : Fetches restaurant data in real-time from the Swiggy live API.
 **Restaurant Browsing** : Explore a variety of cuisines and restaurants based on location.
 **Cart Functionality** : Add items to the cart, manage quantities, and proceed to checkout.
 **Responsive Design ** : Fully responsive across all device sizes using Tailwind CSS.
