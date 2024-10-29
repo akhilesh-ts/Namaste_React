@@ -47,6 +47,9 @@
     "react-router-dom": "^6.26.1",
     "yup": "^1.4.0"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "browserslist": [
     "last 2 version"
   ]
