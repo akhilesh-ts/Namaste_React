@@ -1,7 +1,8 @@
 import Navbar from "../component/Header/NavBar";
 import { Outlet } from "react-router";
 import useNetworkStatus from "../utils/customHooks/useNetworkStatus";
-import UserContext from "../utils/userContext";
+// import UserContext from "../utils/userContext";
+import UserContext from "../utils/UserContext";
 import { useEffect, useState } from "react";
 import { Provider } from "react-redux";
 import appStore from "../utils/store/appStore";
