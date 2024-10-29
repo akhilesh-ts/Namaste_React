@@ -1,14 +1,16 @@
-import { fireEvent, render, screen } from "@testing-library/react"
-import NavBar from '../component/Header/NavBar'
-import { Provider } from "react-redux"
-import appStore from '../utils/store/appStore'
-import { BrowserRouter, } from "react-router-dom"
+import Navbar from "../component/Header/NavBar";
+import { render, screen } from "@testing-library/react";
+import { Provider } from "react-redux";
+import appStore from "../utils/store/appStore";
+import { BrowserRouter } from "react-router-dom";
+import { ClerkProvider } from "@clerk/clerk-react";
 import MockDataForGeoLocation from '../mocks/MockDataForGeoLocation.json'
-import { act } from 'react';
-import "@testing-library/jest-dom"
+import { act } from "react";
+import '@testing-library/jest-dom'
 
 
 
+const PUBLISHABLE_KEY = "pk_test_ZGVzaXJlZC1zbHVnLTQzLmNsZXJrLmFjY291bnRzLmRldiQ"
 
 global.fetch =jest.fn(()=>{
     return Promise.resolve({
@@ -26,65 +28,23 @@ beforeAll(()=>{
     }
 })
 
+describe("it should contain the logo menu and cart icon and login icon",() => {
+  it("it should render the logo", async() => {
 
-describe('should render the header component along with this test cases',()=>{
-    it('should load the header component with login button',async()=>{
-
-        await act(async ()=>{
-            render(
-                <BrowserRouter>
-                <Provider store={appStore}>
-            <NavBar/>
+    await act(async ()=>{
+        render(
+            <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
+          <BrowserRouter>
+            <Provider store={appStore}>
+              <Navbar/>
             </Provider>
-            </BrowserRouter>
-        )
-        })
-    
-        const button = screen.getByRole('button',{name:"Login"})
-    
-        expect(button).toBeInTheDocument()
-    
+          </BrowserRouter>
+          </ClerkProvider>
+        );
     })
 
-    it('should render the cart button with items 0',async()=>{
-
-        await act(async()=>{
-            render(
-                <BrowserRouter>
-                <Provider store={appStore}>
-                    <NavBar/>
-                </Provider>
-                </BrowserRouter>
-            )
-        })
-
-        const cartValue= screen.getByText('0')
-
-        expect(cartValue).toBeInTheDocument()
-
-       
-    })
-
-    it('should render the button with Login and if i click the button at that time changes to Logout',async ()=>{
-
-        await act(async()=>{
-            render(
-                <BrowserRouter>
-                <Provider store={appStore}>
-                    <NavBar/>
-                </Provider>
-                </BrowserRouter>
-            )
-        })
-
-        const loginButton=screen.getByRole('button',{name:'Login'})
-
-        fireEvent.click(loginButton)
-
-        const logOutButton=screen.getByRole('button',{name:'Logout'})
-
-        expect(logOutButton).toBeInTheDocument()
-    })
-
-})
-
+    expect(screen.getByTestId('cart-icon')).toBeInTheDocument()
+    expect(screen.getByText('Home')).toBeInTheDocument()
+    expect(screen.getByTestId('logo-image')).toBeInTheDocument()    
+  });
+});

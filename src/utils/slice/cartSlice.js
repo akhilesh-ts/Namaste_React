@@ -35,12 +35,12 @@ const cartSlice = createSlice({
     removeItem: (state, action) => {
       const item = action.payload;
       const id = item?.card?.info?.id;
-      console.log(item);
+      // console.log(item);
 
       const existing = state.items.find(
         (item) => item?.newItem?.card?.info?.id === id
       );
-      console.log(existing);
+      // console.log(existing);
 
       if (existing) {
         state.totalAmount -= item?.card?.info?.price

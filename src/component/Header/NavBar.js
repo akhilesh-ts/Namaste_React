@@ -10,13 +10,13 @@ import logo from "../../asset/logo.png";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setLocation } from "../../utils/slice/locationSlice";
+import Login from "../Body/Login";
 
 const Navbar = () => {
   const [longitude, setLongitude] = useState("");
   const [latitude, setLatitude] = useState("");
   const [town, setTown] = useState("");
   const [isOpenMobileNav, setIsOpenMobileNav] = useState(false);
-  const [isLogin, setIsLogin] = useState(false);
 
   const cartItems = useSelector((store) => store.cart.items);
 
@@ -36,7 +36,7 @@ const Navbar = () => {
   }, []);
 
   const sendLocationToStore = (latitude, longitude) => {
-    dispatch(setLocation({latitude, longitude}));
+    dispatch(setLocation({ latitude, longitude }));
   };
   const getUserData = async (longitude, latitude) => {
     const api = `${GEOCODING_API}key=${GEOCODING_API_KEY}&q=${longitude}%2C+${latitude}&pretty=1&no_annotations=1`;
@@ -59,6 +59,7 @@ const Navbar = () => {
             <div>
               {/* <VscSquirrel className="text-orange-700 text-lg" /> */}
               <img
+              data-testid="logo-image"
                 src={logo}
                 alt="Hungry Nomad"
                 className=" w-8 h-8 md:w-12 md:h-12 cursor-pointer  "
@@ -82,10 +83,10 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <div className=" text-lg flex items-center gap-6">
-            <CgDarkMode className="  hover:text-orange-600 transition-colors font-light ease-in duration-200 cursor-pointer hidden lg:block" />
+          <div className="text-lg flex items-center gap-6">
+            {/* <CgDarkMode className="  hover:text-orange-600 transition-colors font-light ease-in duration-200 cursor-pointer hidden lg:block" /> */}
             {/* <Link to='/cart'><PiShoppingCartLight className="hover:text-orange-600 font-light transition-colors ease-in duration-200 cursor-pointer" /></Link> */}
-            <Link to="/cart">
+            <Link data-testid="cart-icon" to="/cart">
               <button
                 type="button"
                 className="relative inline-flex items-center p-3 text-sm font-medium text-center rounded-lg  focus:ring-4 focus:outline-none bg-orange-400"
@@ -97,13 +98,10 @@ const Navbar = () => {
                 </div>
               </button>
             </Link>
-
-            <button
-              onClick={() => setIsLogin((prev) => !prev)}
-              className="hidden lg:block font-light bg-orange-400 text-white py-1.5 px-4 rounded-lg"
-            >
-              {isLogin ? "Logout" : "Login"}
-            </button>
+            <div className="hidden lg:block ">
+            <Login />
+            </div>
+           
 
             {isOpenMobileNav ? (
               <RxCross2 onClick={() => setIsOpenMobileNav((prev) => !prev)} />

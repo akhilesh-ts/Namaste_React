@@ -20,7 +20,7 @@ const RestaurantList = () => {
 
   useEffect(() => {
     if (restaurant) {
-      console.log(restaurant);
+      
 
       setRestaurantList(
         restaurant?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
@@ -123,15 +123,16 @@ const RestaurantList = () => {
           <div className="w-full sm:w-auto flex flex-col sm:flex-row items-center justify-center gap-2">
             <input
               data-testid="search-input"
-              className="w-full sm:w-auto rounded-lg p-2"
+              className="w-full sm:w-auto border-2  rounded-lg p-2"
               type="search"
               value={searchVal}
               onChange={(e) => setSearchVal(e.target.value)}
-              placeholder="Search Restaurants"
+              placeholder="Search Restaurants..."
             />
             <Button
               className="w-full sm:w-auto"
               data-testid="search-button"
+              aria-label="Search"
               onClick={() => {
                 const searchData = filteredData.filter((res) =>
                   res.info.name.toLowerCase().includes(searchVal.toLowerCase())
@@ -145,18 +146,33 @@ const RestaurantList = () => {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {filteredData.map((item) => (
-            <Link
-              key={item?.info?.id}
-              to={`resmenu/${item?.info?.name}/${item?.info?.id}`}
+          {
+            filteredData.length>0?(
+              filteredData.map((item) => (
+                <Link
+                  key={item?.info?.id}
+                  to={`resmenu/${item?.info?.name}/${item?.info?.id}`}
+                >
+                  {item.info.avgRating >= 4.3 ? (
+                    <BestSellerRestoInfo key={item?.info?.id} resData={item} />
+                  ) : (
+                    <RestoCard key={item?.info?.id} resData={item} />
+                  )}
+                </Link>
+              ))
+            ):(
+              <div className="w-full  mt-40">
+                <p className="text-center mb-2 "> no matching item found.....</p>
+                <button
+              className="w-full bg-blue-900 p-2 rounded-lg text-white"
+              onClick={() => handelToggle("allResto")}
             >
-              {item.info.avgRating >= 4.3 ? (
-                <BestSellerRestoInfo key={item?.info?.id} resData={item} />
-              ) : (
-                <RestoCard key={item?.info?.id} resData={item} />
-              )}
-            </Link>
-          ))}
+              All Restaurant
+            </button>
+                </div>
+            )
+          
+         }
         </div>
 
         

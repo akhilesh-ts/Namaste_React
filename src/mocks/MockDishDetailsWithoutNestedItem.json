@@ -1,0 +1,1438 @@
+[
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406509",
+                "name": "Korean & Thai Roll Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Rs. 114 Off on Korean Tangy Roll & Thai Spicy Roll, Large Popcorn, Large Fries & Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/4c4e85fc-9a85-41b7-a9d6-644b92c144da_a8391eb4-db4c-41cc-b7d5-02114443fc5c.jpg",
+                "inStock": 1,
+                "price": 54900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.2",
+                        "ratingCount": "4 ratings",
+                        "ratingCountV2": "4"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406508",
+                "name": "Indian Tandoori Roll Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Save Rs. 75 on Indian Tandoori Roll, Classic Zinger Burger, Medium Fries & Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/5d439a47-5bce-4010-b1b1-bc2f8344367b_8ed35bd6-33f3-419e-a5ee-62efb83a6a45.jpg",
+                "inStock": 1,
+                "price": 39900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "2.2",
+                        "ratingCount": "3 ratings",
+                        "ratingCountV2": "3"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406507",
+                "name": "Korean Tangy Roll & Popcorn Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Save Rs. 56 with Korean Tangy Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/d980ce4c-4c08-4522-8467-3370e1e3a54f_c0843f3c-59f5-4037-9e65-0193e7ff16a7.jpg",
+                "inStock": 1,
+                "price": 29900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "3.7",
+                        "ratingCount": "4 ratings",
+                        "ratingCountV2": "4"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406506",
+                "name": "Thai Spicy Roll & Zinger Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Save Rs. 75 with Thai Spicy Roll with Classic Zinger Burger, Medium Fries and Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/e0406e96-cf1e-4b8e-a5ac-b4b146275c79_783e1b21-34c8-49dc-8b65-d1d0e9516028.jpg",
+                "inStock": 1,
+                "price": 39900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.8",
+                        "ratingCount": "7 ratings",
+                        "ratingCountV2": "7"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406505",
+                "name": "American Roll & Popcorn Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Save Rs. 56 with American Nashville Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/5c2e6a8e-c457-4206-ba9c-671bed55def8_7a5456db-4ab5-4f45-be97-40a6a366de83.jpg",
+                "inStock": 1,
+                "price": 29900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {}
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406504",
+                "name": "Thai Spicy Roll & Popcorn Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Save Rs. 56 with Thai Spicy Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/2b00f8ae-9a6c-48f3-adb9-e225523fde77_3b233f9f-ebed-490d-bcab-76d908b3c120.jpg",
+                "inStock": 1,
+                "price": 29900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.2",
+                        "ratingCount": "5 ratings",
+                        "ratingCountV2": "5"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "146406503",
+                "name": "Korean Tangy Roll & Zinger Chicken Meal",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Save Rs. 75 with Korean Tangy Roll with Classic Zinger Burger, Medium Fries and Pepsi PET 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/0de51acd-e5e9-49fc-b792-8f0d858e5d2b_7be9cfd1-b442-4f02-bd98-feb37de91305.jpg",
+                "inStock": 1,
+                "price": 39900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "5.0",
+                        "ratingCount": "3 ratings",
+                        "ratingCountV2": "3"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "113953430",
+                "name": "Double Chicken Roll Meal for 1",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Deal combo of 1 Double Chicken Roll, Large Fries, 2 Dips & Pepsi 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/17/00af9641-700d-462f-890f-47e358b63bfb_68cecb16-fd2a-4d7d-9392-b5f83d72eaaf.jpg",
+                "inStock": 1,
+                "price": 37905,
+                "variants": {},
+                "variantsV2": {},
+                "addons": [
+                    {
+                        "groupId": "145981624",
+                        "groupName": "Choose your Sides",
+                        "choices": [
+                            {
+                                "id": "112322233",
+                                "name": "Chicken Popcorn - Large",
+                                "price": 24857,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322227",
+                                "name": "Chicken Popcorn - Medium",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "145981625",
+                        "groupName": "Choose your Snacks",
+                        "choices": [
+                            {
+                                "id": "112322222",
+                                "name": "Hot Chicken Wings - 4 pcs",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322217",
+                                "name": "Hot & Crispy Chicken - 1 pc",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "125689257",
+                                "name": "Smoky Red Grilled Chicken - 1 pc",
+                                "price": 12476,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "145981626",
+                        "groupName": "Choose Your Beverage",
+                        "choices": [
+                            {
+                                "id": "112322230",
+                                "name": "Pepsi Black Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322232",
+                                "name": "7UP Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322226",
+                                "name": "Mirinda Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322218",
+                                "name": "Pepsi Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "145981627",
+                        "groupName": "Choose your Desserts",
+                        "choices": [
+                            {
+                                "id": "112322221",
+                                "name": "Chocolate Lava Cake",
+                                "price": 10857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322229",
+                                "name": "Coffee Mousse Cake",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322219",
+                                "name": "Chocolate Mud Pie",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    }
+                ],
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.7",
+                        "ratingCount": "3 ratings",
+                        "ratingCountV2": "3"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "113953427",
+                "name": "Classic Chicken Roll Meal for 2",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Deal combo of 2 Classic Chicken Rolls, Large Fries, 2 Dips & Pepsi 475ml",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/183cb04b-d716-443a-91d9-27f26c566adc_e3c2c7c7-b9a8-4881-a4b5-05532b10ec0a.jpg",
+                "inStock": 1,
+                "price": 47905,
+                "variants": {},
+                "variantsV2": {},
+                "addons": [
+                    {
+                        "groupId": "145920102",
+                        "groupName": "Choose your Sides",
+                        "choices": [
+                            {
+                                "id": "112322233",
+                                "name": "Chicken Popcorn - Large",
+                                "price": 24857,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322227",
+                                "name": "Chicken Popcorn - Medium",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322225",
+                                "name": "Chicken Popcorn - Regular",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "145920105",
+                        "groupName": "Choose your Snacks",
+                        "choices": [
+                            {
+                                "id": "112322222",
+                                "name": "Hot Chicken Wings - 4 pcs",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322217",
+                                "name": "Hot & Crispy Chicken - 1 pc",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "125689257",
+                                "name": "Smoky Red Grilled Chicken - 1 pc",
+                                "price": 12476,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "145920106",
+                        "groupName": "Choose Your Beverage",
+                        "choices": [
+                            {
+                                "id": "112322230",
+                                "name": "Pepsi Black Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322232",
+                                "name": "7UP Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322226",
+                                "name": "Mirinda Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322218",
+                                "name": "Pepsi Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "145920109",
+                        "groupName": "Choose your Desserts",
+                        "choices": [
+                            {
+                                "id": "112322221",
+                                "name": "Chocolate Lava Cake",
+                                "price": 10857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322229",
+                                "name": "Coffee Mousse Cake",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322219",
+                                "name": "Chocolate Mud Pie",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    }
+                ],
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "3.9",
+                        "ratingCount": "4 ratings",
+                        "ratingCountV2": "4"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "145439361",
+                "name": "Korean Tangy Chicken Roll",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Delicious new roll featuring tangy Korean kimchi, vegetables and crunchy chicken strips",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/25/2b5fdf7d-ee02-4871-8a5d-e766dc62833a_ae001a35-cbdc-4524-9868-b192251fda2b.jpg",
+                "inStock": 1,
+                "price": 11900,
+                "variants": {},
+                "variantsV2": {},
+                "addons": [
+                    {
+                        "groupId": "167208968",
+                        "groupName": "Choose your Desserts",
+                        "choices": [
+                            {
+                                "id": "112322219",
+                                "name": "Chocolate Mud Pie",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322221",
+                                "name": "Chocolate Lava Cake",
+                                "price": 10857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208969",
+                        "groupName": "Choose Your Beverage",
+                        "choices": [
+                            {
+                                "id": "112322232",
+                                "name": "7UP Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322230",
+                                "name": "Pepsi Black Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322226",
+                                "name": "Mirinda Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322218",
+                                "name": "Pepsi Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322216",
+                                "name": "Pepsi PET 475ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208970",
+                        "groupName": "Choose your Snacks",
+                        "choices": [
+                            {
+                                "id": "125689257",
+                                "name": "Smoky Red Grilled Chicken - 1 pc",
+                                "price": 12476,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "116074020",
+                                "name": "Peri Peri Chicken Strips - 3 pc",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322222",
+                                "name": "Hot Chicken Wings - 4 pcs",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322217",
+                                "name": "Hot & Crispy Chicken - 1 pc",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208971",
+                        "groupName": "Choose your Sides",
+                        "choices": [
+                            {
+                                "id": "112322236",
+                                "name": "Tandoori Masala Dip",
+                                "price": 2857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322228",
+                                "name": "French Fries - Medium",
+                                "price": 9905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322223",
+                                "name": "French Fries - Large",
+                                "price": 11905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322225",
+                                "name": "Chicken Popcorn - Regular",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322227",
+                                "name": "Chicken Popcorn - Medium",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    }
+                ],
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.4",
+                        "ratingCount": "21 ratings",
+                        "ratingCountV2": "21"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "145439360",
+                "name": "Thai Spicy Chicken Roll",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Fresh burst of Thai flavours and sauces in a flaky paratha, chicken strips and vegetables",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/25/8de08e92-01c9-4325-a98e-2c069b933f50_b8af1bba-0784-4271-8243-11e0669e5af6.jpg",
+                "inStock": 1,
+                "price": 11900,
+                "variants": {},
+                "variantsV2": {},
+                "addons": [
+                    {
+                        "groupId": "167208948",
+                        "groupName": "Choose your Desserts",
+                        "choices": [
+                            {
+                                "id": "112322219",
+                                "name": "Chocolate Mud Pie",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322221",
+                                "name": "Chocolate Lava Cake",
+                                "price": 10857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208950",
+                        "groupName": "Choose Your Beverage",
+                        "choices": [
+                            {
+                                "id": "112322232",
+                                "name": "7UP Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322230",
+                                "name": "Pepsi Black Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322226",
+                                "name": "Mirinda Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322218",
+                                "name": "Pepsi Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322216",
+                                "name": "Pepsi PET 475ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208952",
+                        "groupName": "Choose your Snacks",
+                        "choices": [
+                            {
+                                "id": "125689257",
+                                "name": "Smoky Red Grilled Chicken - 1 pc",
+                                "price": 12476,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "116074020",
+                                "name": "Peri Peri Chicken Strips - 3 pc",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322222",
+                                "name": "Hot Chicken Wings - 4 pcs",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322217",
+                                "name": "Hot & Crispy Chicken - 1 pc",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208954",
+                        "groupName": "Choose your Sides",
+                        "choices": [
+                            {
+                                "id": "112322236",
+                                "name": "Tandoori Masala Dip",
+                                "price": 2857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322228",
+                                "name": "French Fries - Medium",
+                                "price": 9905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322223",
+                                "name": "French Fries - Large",
+                                "price": 11905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322225",
+                                "name": "Chicken Popcorn - Regular",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322227",
+                                "name": "Chicken Popcorn - Medium",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    }
+                ],
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.0",
+                        "ratingCount": "10 ratings",
+                        "ratingCountV2": "10"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "145439359",
+                "name": "Indian Tandoori Chicken Roll",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Flavorful roll made with flaky lachha paratha, perfectly fried chicken strips in rich and creamy tandoori sauce",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/25/acee07ea-ef07-4fee-b18c-09b25ac37790_32aaa543-2b0d-49ae-a5a9-33bfda4fe96d.jpg",
+                "inStock": 1,
+                "price": 11900,
+                "variants": {},
+                "variantsV2": {},
+                "addons": [
+                    {
+                        "groupId": "167208960",
+                        "groupName": "Choose your Desserts",
+                        "choices": [
+                            {
+                                "id": "112322219",
+                                "name": "Chocolate Mud Pie",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322221",
+                                "name": "Chocolate Lava Cake",
+                                "price": 10857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208961",
+                        "groupName": "Choose Your Beverage",
+                        "choices": [
+                            {
+                                "id": "112322232",
+                                "name": "7UP Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322230",
+                                "name": "Pepsi Black Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322226",
+                                "name": "Mirinda Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322218",
+                                "name": "Pepsi Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322216",
+                                "name": "Pepsi PET 475ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208963",
+                        "groupName": "Choose your Snacks",
+                        "choices": [
+                            {
+                                "id": "125689257",
+                                "name": "Smoky Red Grilled Chicken - 1 pc",
+                                "price": 12476,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "116074020",
+                                "name": "Peri Peri Chicken Strips - 3 pc",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322222",
+                                "name": "Hot Chicken Wings - 4 pcs",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322217",
+                                "name": "Hot & Crispy Chicken - 1 pc",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "167208964",
+                        "groupName": "Choose your Sides",
+                        "choices": [
+                            {
+                                "id": "112322236",
+                                "name": "Tandoori Masala Dip",
+                                "price": 2857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322228",
+                                "name": "French Fries - Medium",
+                                "price": 9905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322223",
+                                "name": "French Fries - Large",
+                                "price": 11905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322225",
+                                "name": "Chicken Popcorn - Regular",
+                                "price": 11524,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322227",
+                                "name": "Chicken Popcorn - Medium",
+                                "price": 17905,
+                                "inStock": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    }
+                ],
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.1",
+                        "ratingCount": "18 ratings",
+                        "ratingCountV2": "18"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "145439358",
+                "name": "Indian Spicy Veg Roll",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Veg special spicy indian sauce and veggie roll",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/25/bf247176-6142-4eea-bd04-d0acf186b6f0_f5537093-5d29-4b12-9c71-7935995f15b8.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 11900,
+                "variants": {},
+                "variantsV2": {},
+                "addons": [
+                    {
+                        "groupId": "166138373",
+                        "groupName": "Choose your Sides",
+                        "choices": [
+                            {
+                                "id": "112322236",
+                                "name": "Tandoori Masala Dip",
+                                "price": 2857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322228",
+                                "name": "French Fries - Medium",
+                                "price": 9905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322223",
+                                "name": "French Fries - Large",
+                                "price": 11905,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "166138374",
+                        "groupName": "Choose Your Beverage",
+                        "choices": [
+                            {
+                                "id": "112322232",
+                                "name": "7UP Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322230",
+                                "name": "Pepsi Black Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322226",
+                                "name": "Mirinda Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322218",
+                                "name": "Pepsi Can 300 ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322216",
+                                "name": "Pepsi PET 475ml",
+                                "price": 5714,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+                    {
+                        "groupId": "166138375",
+                        "groupName": "Choose your Desserts",
+                        "choices": [
+                            {
+                                "id": "112322229",
+                                "name": "Coffee Mousse Cake",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322219",
+                                "name": "Chocolate Mud Pie",
+                                "price": 12857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "id": "112322221",
+                                "name": "Chocolate Lava Cake",
+                                "price": 10857,
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                        ],
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    }
+                ],
+                "itemAttribute": {
+                    "vegClassifier": "VEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.3",
+                        "ratingCount": "4 ratings",
+                        "ratingCountV2": "4"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "113953429",
+                "name": "Classic Chicken Roll",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Street Syle Roll with Layerful parantha, single chicken strip, onions and two spicy sauce",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/12/98809656-a56f-400b-a5f4-85da2c373728_1f87888c-7eeb-4dfe-b233-0588c8c7a99b.jpg",
+                "inStock": 1,
+                "price": 11900,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.2",
+                        "ratingCount": "105 ratings",
+                        "ratingCountV2": "105"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    },
+    {
+        "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "113953428",
+                "name": "Double Chicken Roll",
+                "category": "NEW CHICKEN ROLLS",
+                "description": "Double fun with double chicken strip filling, layerful parantha onions and two spicy sauce",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/12/c51d83f6-4c85-477a-9262-204092ab3e91_d5f20a0c-8b5d-49a5-a178-ba8745b59ff1.jpg",
+                "inStock": 1,
+                "price": 16857,
+                "variants": {},
+                "variantsV2": {},
+                "itemAttribute": {
+                    "vegClassifier": "NONVEG"
+                },
+                "ribbon": {},
+                "type": "ITEM",
+                "offerTags": [
+                    {
+                        "title": "30% OFF",
+                        "subTitle": "USE TRYNEW",
+                        "textColor": "#DB6742",
+                        "backgroundColor": "#FAE8E3"
+                    }
+                ],
+                "itemBadge": {},
+                "badgesV2": {},
+                "ratings": {
+                    "aggregatedRating": {
+                        "rating": "4.4",
+                        "ratingCount": "106 ratings",
+                        "ratingCountV2": "106"
+                    }
+                }
+            },
+            "analytics": {},
+            "hideRestaurantDetails": true
+        }
+    }
+]

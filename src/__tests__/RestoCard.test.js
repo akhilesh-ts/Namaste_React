@@ -1,27 +1,30 @@
-import { render, screen } from "@testing-library/react";
-import RestoCard, { BestSellerResto } from "../component/Body/RestoCard";
-import RestoCardMockData from "../mocks/RestoCardMockData.json";
-import "@testing-library/jest-dom";
+ import RestoCard,{BestSellerResto} from '../component/Body/RestoCard'
+ import { render,screen } from '@testing-library/react'
+ import RestoCardMockData from '../mocks/RestoCardMockData.json'
+ import '@testing-library/jest-dom'
+ 
+ const BestSellerRestoCard = BestSellerResto(RestoCard);
 
-const BestSellerRestoCard = BestSellerResto(RestoCard);
+ describe('Restautant card component ',()=>{
+  it('should run the restaurant name  ',()=>{
+    render(
+        <RestoCard resData={RestoCardMockData}/>
+    )
 
-describe("should render the resto card along with this test cases", () => {
-  it("should render restocard with the props", () => {
-    render(<RestoCard resData={RestoCardMockData} />);
-    const name = screen.getByText("Chinese Wok");
+    const resName= screen.getByText('Chinese Wok')
 
-    expect(name).toBeInTheDocument();
-  });
-});
+    expect(resName).toBeInTheDocument()
+  })
+ 
+ 
+ })
 
-//higher order component
+ describe('testing the HOC component',()=>{
+    it('should check the card contain the best Seller tag',()=>{
+        render(<BestSellerRestoCard resData={RestoCardMockData}/>)
 
-describe("should check the HOC component rendered or not", () => {
-  it("should rendered the hoc with best seller tag", () => {
-    render(<BestSellerRestoCard resData={RestoCardMockData} />);
-
-    const name = screen.getByText("Best Seller");
-
-    expect(name).toBeInTheDocument();
-  });
-});
+        const bestSellerTag = screen.getByTestId("best-seller-tag");
+      //  screen.debug()
+        expect(bestSellerTag).toBeInTheDocument()
+    })
+ })

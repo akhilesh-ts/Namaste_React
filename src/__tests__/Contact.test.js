@@ -1,49 +1,49 @@
-import { render, screen } from "@testing-library/react"
-import Contact from "../page/Contact"
-import "@testing-library/jest-dom"
+import { fireEvent, render, screen } from "@testing-library/react";
+import Contact from "../page/Contact";
+import "@testing-library/jest-dom";
+import { act } from "react";
 
+describe("it should render the contact page with contact form", () => {
+  it("should run the contact us heading", () => {
+    render(<Contact />);
 
-describe('this is the contact page test case',()=>{
-// check the contact component is renderd or not using the heading 
-it('should render the contact page',()=>{
+    expect(screen.getByText("Contact Us")).toBeInTheDocument();
+  });
 
-    render(<Contact/>)
+  it("should run the get in touch form", () => {
+    render(<Contact />);
 
+    const inputBox = screen.getAllByTestId("name");
 
-    //this is called Querying
-    const heading=screen.getByRole("heading")
+    expect(inputBox.length).toBe(1);
+  });
 
-    //Assertion
-    expect(heading).toBeInTheDocument()  
+  it(" if i click the submit button at that time change the form to success component ", async () => {
+    render(<Contact />);
 
-})
+    const submitButton = screen.getByRole("button", { name: "Send Message" });
 
+    expect(submitButton).toBeInTheDocument();
 
-// check the contact component is renderd or not using the button inside the component
-test('it should render the contact page button',()=>{
+    const nameInput = screen.getByTestId("name");
 
-    render(<Contact/>)
+    const emailInput = screen.getByTestId("email");
 
-    //querying
-    const button=screen.getByRole('button')
+    const messageInput = screen.getByTestId("message");
 
-    //assertion
-    expect(button).toBeInTheDocument()
-})
+    fireEvent.change(nameInput, { target: { value: "akhilesh" } });
 
+    fireEvent.change(emailInput, { target: { value: "akhil@gmail.com" } });
 
-//check the contact component is rendered or not using the input box
+    fireEvent.change(messageInput, {
+      target: { value: "this is a just test message" },
+    });
 
-it ('it should render 2 input boxes',()=>{
+    await act(async () => {
+      fireEvent.click(submitButton);
+    });
 
-    render(<Contact/>)
-
-    const inputBox=screen.getAllByRole('textbox')
-
-
-    expect(inputBox.length).toBe(2)
-    
-})
-
-})
-
+    const success = screen.getByTestId("success-image");
+    expect(success).toBeInTheDocument();
+  });
+});

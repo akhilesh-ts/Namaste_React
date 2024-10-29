@@ -3,8 +3,7 @@ import { Badge } from "flowbite-react";
 import { RES_IMAGE } from "../../utils/constants";
 
 export const RestoCard = (props) => {
-  const { name, areaName, cuisines, avgRating, cloudinaryImageId } =
-    props.resData.info;
+  const { name, areaName, cuisines, avgRating, cloudinaryImageId } = props.resData.info;
 
   const { slaString } = props.resData.info.sla;
 
@@ -44,7 +43,7 @@ export const BestSellerResto = (RestoCard) => {
     return (
       <>
         <div className="relative transform hover:scale-95 transition-transform duration-300 ">
-          <Badge className="absolute top-2 left-2 px-2 py-1 bg-orange-400 text-white rounded-md shadow-lg z-10">
+          <Badge data-testid="best-seller-tag" className="absolute top-2 left-2 px-2 py-1 bg-orange-400 text-white rounded-md shadow-lg z-10">
             Best Seller
           </Badge>
           <RestoCard {...props} />

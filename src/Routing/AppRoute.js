@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "../layout/AppLayout";
 import ErrorPage from "../component/Body/ErrorPage";
 // import RestaurantMenuList from "../component/Body/RestaurantMenuList";
+import LoadingPage from '../page/LoadingPage'
 import { lazy, Suspense } from "react";
 
 
@@ -20,7 +21,7 @@ const AppRouter = createBrowserRouter([
       {
         path: "/",
         element: (
-          <Suspense fallback={<h1>loading...</h1>}>
+          <Suspense fallback={<LoadingPage/>}>
             <Home />
           </Suspense>
         ),
@@ -29,7 +30,7 @@ const AppRouter = createBrowserRouter([
       {
         path: "/about",
         element: (
-          <Suspense fallback={<h1>loading ...</h1>}>
+          <Suspense fallback={<LoadingPage/>}>
             <About />
           </Suspense>
         ),
@@ -38,7 +39,7 @@ const AppRouter = createBrowserRouter([
       {
         path: "/contact",
         element: (
-          <Suspense fallback={<h1>Loading...</h1>}>
+          <Suspense fallback={<LoadingPage/>}>
             <Contact />
           </Suspense>
         ),
@@ -46,7 +47,7 @@ const AppRouter = createBrowserRouter([
       },
       {
         path: "/resmenu/:resname/:id",
-        element: <Suspense fallback={<h1>Loading...</h1>}>
+        element: <Suspense fallback={<LoadingPage/>}>
           <RestaurantMenuList />
         </Suspense>,
         errorElement: <ErrorPage />,
@@ -54,7 +55,7 @@ const AppRouter = createBrowserRouter([
       {
         path: "/cart",
         element: (
-          <Suspense fallback={<h1>Loading...</h1>}>
+          <Suspense fallback={<LoadingPage/>}>
             <Cart />
           </Suspense>
         ),

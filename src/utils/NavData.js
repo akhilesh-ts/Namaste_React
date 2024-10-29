@@ -23,10 +23,10 @@ export const NavData = [
     icon:<IoIosContact/>,
     path:'/contact',
   },
-  {
-    id: 4,
-    name: "Carrers",
-    icon:<FaPaperPlane/>,
-    path:'/carrer',
-  },
+  // {
+  //   id: 4,
+  //   name: "Carrers",
+  //   icon:<FaPaperPlane/>,
+  //   path:'/carrer',
+  // },
 ];

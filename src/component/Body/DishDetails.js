@@ -1,41 +1,55 @@
 import { ITEM_CATEGORY_IMAGE } from "../../utils/constants";
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import { HiStar } from "react-icons/hi";
 import { BiCheckboxSquare } from "react-icons/bi";
 import default_image from "../../asset/default_image.png";
-import { addItem,removeItem } from "../../utils/slice/cartSlice";
+import { addItem, removeItem } from "../../utils/slice/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { HiPlus } from "react-icons/hi";
-import { HiMinus } from "react-icons/hi";
+
 
 const DishDetails = ({ details }) => {
   const [showFull, setShowFull] = useState(false);
-
-  const showFullDescription = () => {
-    setShowFull((prev) => !prev);
+  const [activeItem, setActiveItem] = useState(null);
+  const [activeItemCart, setActiveItemCart] = useState(null);
+  const [cartItemList,setCartItemList]=useState([])
+  const navigate=useNavigate()
+  const showFullDescription = (id) => {
+    setActiveItem(activeItem === id ? null : id);
+    // setShowFull((prev) => !prev);
   };
   const dispatch = useDispatch();
   const cartItems = useSelector((store) => store.cart.items);
-  // console.log('from the dishdetails',cartItems);
-  
-  const AddItemToCart = (item) => {
+  // console.log('from the dishdetails',details);
+
+  const AddItemToCart = (item, id) => {
+    console.log(id);
+    
+    setActiveItemCart(id);
+    if(!cartItemList.includes(id)){
+      setCartItemList([...cartItemList,id])
+    }
+    // if(!cartItemList.includes(id)){
+    //   console.log(id);
+    //   setCartItemList([...cartItemList,id])
+    // }
     dispatch(addItem(item));
+    
   };
 
-  const removeItemFromcart=()=>{
-    dispatch(removeItem())
-  }
+  const removeItemFromcart = () => {
+    dispatch(removeItem());
+  };
 
-  const fullDescription = `Centre loaded with Molten Cheese & topped with Chicken Keema & Red Paprika with our spicy Peri Peri Sauce *Contains non-edible container under the Pizza`;
+  // const fullDescription = `Centre loaded with Molten Cheese & topped with Chicken Keema & Red Paprika with our spicy Peri Peri Sauce *Contains non-edible container under the Pizza`;
+  
+
   return (
     <>
       {details.map((item) => (
-        < div key={item?.card?.info?.id} data-testid="food-items">
-          <div
-            
-            className="flex items-center justify-between gap-2"
-          >
-            <div className="" >
+        <div key={item?.card?.info?.id} data-testid="food-items">
+          <div className="flex items-center justify-between gap-2">
+            <div className="">
               {item?.card?.info?.itemAttribute?.vegClassifier === "VEG" ? (
                 <BiCheckboxSquare className="text-green-500 text-lg" />
               ) : (
@@ -63,23 +77,27 @@ const DishDetails = ({ details }) => {
               </p>
               <div className="hidden md:block">
                 <p className="text-xs font-semibold md:text-sm text-zinc-800">
-                  {fullDescription}
+                  {/* {fullDescription} */}
+                  {item?.card?.info?.description}
                 </p>
               </div>
               <div
                 className="md:hidden transition-all duration-300 ease-in-out"
-                style={{ maxHeight: showFull ? "auto" : "60px" }}
+                style={{
+                  maxHeight:
+                    activeItem === item?.card?.info?.id ? "auto" : "60px",
+                }}
               >
                 <p
                   className="text-xs font-light md:text-sm text-zinc-800 transition ease-in-out delay-150 "
-                  onClick={showFullDescription}
+                  onClick={() => showFullDescription(item?.card?.info?.id)}
                 >
-                  {showFull
-                    ? fullDescription
-                    : fullDescription.substring(0, 58)}
+                  {activeItem === item?.card?.info?.id
+                    ? item?.card?.info?.description
+                    : item?.card?.info?.description.substring(0, 58)}
                   <span className="md:hidden font-semibold">
                     {" "}
-                    {showFull ? "Less" : "more.."}
+                    {activeItem === item?.card?.info?.id ? "Less" : "more.."}
                   </span>
                 </p>
               </div>
@@ -97,28 +115,15 @@ const DishDetails = ({ details }) => {
                   alt="dish"
                 />
               </div>
-              {cartItems.length > 0 ? (
-                <div className=" inline-flex  rounded-md shadow-sm ">
-                  <button className="px-4 py-2 text-sm font-medium text-black bg-white border border-gray-200 rounded-s-lg " onClick={()=>removeItemFromcart()}>
-                    <HiMinus />
-                  </button>
-                  <p className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200">
-                    {cartItems[0]?.quantity}
-                  </p>
-                  <button className="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg " onClick={() => AddItemToCart(item)}>
-                    <HiPlus />
-                  </button>
-                </div>
-                // <button
-                //   className="border bg-white text-green-500 shadow-lg rounded-lg py-2"
-                  
-                // >
-                //   Go to cart
-                // </button>
+              {cartItemList.includes(item?.card?.info?.id)? (
+                
+                <button className="border bg-white text-green-500 shadow-lg rounded-lg py-2" onClick={()=>navigate('/cart')}>
+                  Go to cart
+                </button>
               ) : (
                 <button
                   className="border bg-white text-green-500 shadow-lg rounded-lg py-2"
-                  onClick={() => AddItemToCart(item)}
+                  onClick={() => AddItemToCart(item,item?.card?.info?.id)}
                 >
                   ADD
                 </button>

@@ -5,6 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 import { CAROUSEL_IMAGE_URL } from "../../utils/constants";
 import { addItem,removeItem,deleteItem } from "../../utils/slice/cartSlice";
 import { useDispatch } from "react-redux";
+import default_image from '../../asset/default_image.png'
 
 
 const CartItemDetails = ({items}) => {
@@ -28,14 +29,15 @@ const CartItemDetails = ({items}) => {
   }
 
   return (
-    <div >
-      <div  className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800 md:p-6 mb-2 ">
+    <div data-testid="cart-details" >
+      <div   className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800 md:p-6 mb-2 ">
         <div  className="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
           <div className="shrink-0 md:order-1">
             <img
               className="h-20 w-20 dark:hidden rounded-lg"
-              src={`${CAROUSEL_IMAGE_URL}${items.newItem?.card?.info?.imageId}`}
-              alt="imac image"
+              // src={`${CAROUSEL_IMAGE_URL}${items.newItem?.card?.info?.imageId}`}
+              src={items.newItem?.card?.info?.imageId ? `${CAROUSEL_IMAGE_URL}${items.newItem?.card?.info?.imageId}`:default_image}
+              alt="food image"
             />
           </div>
 
@@ -65,7 +67,7 @@ const CartItemDetails = ({items}) => {
           </div>
 
           <div className="w-full min-w-0 flex-1 space-y-4 md:order-2 md:max-w-md">
-            <p className="text-base font-medium text-gray-900  dark:text-white" data-testid="cart-details">
+            <p className="text-base font-medium text-gray-900  dark:text-white">
           {items?.newItem?.card?.info?.name}
             </p>
 

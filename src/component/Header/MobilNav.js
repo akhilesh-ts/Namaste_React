@@ -47,6 +47,7 @@ import { Button, Drawer, Sidebar } from "flowbite-react";
 import { NavData } from "../../utils/NavData";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Login from "../Body/Login";
 
 const MobileNav = ({ setIsOpenMobileNav }) => {
   const [isOpen, setIsOpen] = useState(true);
@@ -91,10 +92,11 @@ const MobileNav = ({ setIsOpenMobileNav }) => {
                         <Dropdown.Item>Dark</Dropdown.Item>
                       </Dropdown>
                     </Sidebar.Item> */}
-                    <Sidebar.Item>
-                      <Button className="w-full bg-orange-400 text-white">
+                    <Sidebar.Item >
+                      {/* <Button className="w-full bg-orange-400 text-white">
                         Sign in
-                      </Button>
+                      </Button> */}
+                      <Login />
                     </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>

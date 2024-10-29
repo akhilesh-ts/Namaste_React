@@ -4,11 +4,13 @@ import { IoArrowBack } from "react-icons/io5";
 import { carouselCategory } from "../../utils/mockData";
 import { CAROUSEL_IMAGE_URL } from "../../utils/constants";
 import UserContext from "../../utils/userContext";
+import { useUser } from "@clerk/clerk-react";
 
 const BannerCarousel = () => {
   const { name, setUserName } = useContext(UserContext);
   const [carouselData] = useState(carouselCategory);
   const [slide, setSlide] = useState(0);
+  const { isSignedIn, user} = useUser()
 
   const forwardButton = () => {
     if (carouselData.length - 8 == slide) return false;
@@ -25,7 +27,10 @@ const BannerCarousel = () => {
       <div className="  flex items-center justify-between ">
         <div>
           <h1 className=" font-light sm:font-semibold text-sm md:text-lg ">
-            {name},Whats on your mind ?
+            {
+              isSignedIn?`${user.fullName},Whats on your mind ?` : 'Hi there,Whats on your mind ?'
+            }
+            
           </h1>
           {/* <input className="border border-black" value={name} onChange={(e)=>setUserName(e.target.value)}  /> */}
         </div>
