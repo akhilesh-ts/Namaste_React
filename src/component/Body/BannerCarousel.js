@@ -3,7 +3,7 @@ import { IoArrowForward } from "react-icons/io5";
 import { IoArrowBack } from "react-icons/io5";
 import { carouselCategory } from "../../utils/mockData";
 import { CAROUSEL_IMAGE_URL } from "../../utils/constants";
-import UserContext from "../../utils/userContext";
+import UserContext from "../../utils/UserContext";
 import { useUser } from "@clerk/clerk-react";
 
 const BannerCarousel = () => {
